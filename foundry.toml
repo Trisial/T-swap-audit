@@ -8,8 +8,11 @@ remappings = [
     'forge-std/=lib/forge-std/src/',
 ]
 
+[fuzz]
+seed = "0x1"
+
 [invariant]
-runs = 256
+runs = 10000
 depth = 32
 fail_on_revert = true
 
